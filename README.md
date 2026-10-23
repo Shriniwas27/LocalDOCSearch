@@ -54,12 +54,4 @@ Modules: `ir_engine.py` (engine, no UI) · `app.py` (Streamlit) · `evaluate.py`
 | 7 | No evaluation | Can't prove any module helps | `evaluate.py` ablation across 6 configurations |
 | 8 | Typo correction applied blindly | Hurts queries when it fires wrongly | Per-module toggles + "search exactly as typed" button |
 
-## Limitations:
-* LSA is *latent co-occurrence*, not true semantics; on small corpora it is noisy. Use embeddings for real conceptual matching.
-* Thesaurus needs manual curation per domain; the bundled one is a starter.
-* Clustering needs enough results (≥6) and enough corpus to be meaningful; labels are keyword-based.
-* Typo layer cannot fix a typo whose correct form is absent from the corpus, or valid words missing from it.
-* Bundled eval set: 13 docs / 12 queries written by the same author as the thesaurus, so scores are optimistic. Build judgments on your real corpus.
-* Pure-Python stemmer is crude (e.g. `routing`/`route`); swap in NLTK Snowball if needed.
-* Index is rebuilt in memory (fine up to ~10^4-10^5 passages); beyond that use FAISS/Elasticsearch.
-* Scanned PDFs need OCR (not included).
+
