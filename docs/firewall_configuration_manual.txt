@@ -1,0 +1,5 @@
+Firewall Configuration Manual
+
+This manual describes how to define firewall rules on the perimeter appliance. Rules are evaluated top to bottom and the first match wins. Always end the rule base with an explicit deny-all entry.
+
+Separate the network into zones: internet, DMZ, internal and management. Allow only required ports between zones and log every denied connection. Review the rule base every quarter and remove unused entries.

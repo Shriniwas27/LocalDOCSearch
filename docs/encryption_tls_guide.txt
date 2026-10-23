@@ -1,0 +1,5 @@
+Encryption and TLS Guide
+
+All data in transit must use TLS 1.2 or higher. Weak cipher suites such as RC4 and 3DES are prohibited. Certificates must be issued by the corporate certificate authority and renewed before expiry.
+
+Data at rest on laptops and databases must use AES-256 encryption. Encryption keys are stored in a hardware security module and rotated annually. Key access is logged and restricted to the platform team.

@@ -1,0 +1,5 @@
+Incident Response Playbook
+
+The playbook defines six phases: preparation, detection, containment, eradication, recovery and lessons learned. On suspicion of a data breach the on-call analyst opens an incident ticket and notifies the incident commander.
+
+During containment, isolate affected systems but preserve volatile evidence. Communications to customers and regulators are approved by legal. A post-incident review is held within five working days.

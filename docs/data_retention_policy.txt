@@ -1,0 +1,5 @@
+Data Retention Policy
+
+Business records are retained for seven years unless a longer statutory period applies. Email is archived for three years. Personal data must be deleted when the purpose for processing has ended.
+
+Legal hold overrides normal deletion schedules. Each department head is responsible for reviewing their archives annually and certifying that expired records were destroyed.

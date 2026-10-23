@@ -1,0 +1,16 @@
+{
+  "_comment": "Domain thesaurus. Each group = terms treated as near-synonyms. Edit freely; this replaces WordNet to avoid query drift (virus->biology, trojan->Troy).",
+  "groups": [
+    ["malware", "virus", "trojan", "worm", "ransomware", "spyware", "malicious software"],
+    ["phishing", "scam", "spoofing", "fraudulent email", "social engineering"],
+    ["encryption", "cipher", "cryptography", "tls", "ssl"],
+    ["vulnerability", "flaw", "weakness", "exploit", "cve"],
+    ["patch", "update", "hotfix"],
+    ["breach", "incident", "compromise", "intrusion"],
+    ["password", "credential", "login", "passphrase"],
+    ["firewall", "packet filter", "network perimeter"],
+    ["cyberspace", "internet", "virtual world"],
+    ["retention", "archival", "storage period"],
+    ["badge", "keycard", "access card"]
+  ]
+}

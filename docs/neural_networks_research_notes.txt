@@ -1,0 +1,5 @@
+Research Notes: Neural Networks for Text Classification
+
+We compare convolutional and transformer models for document classification on a news dataset. Fine-tuned transformers achieved the best accuracy but needed far more compute.
+
+Ablation studies show that pretraining data size matters more than model depth. Future work includes distillation to smaller models suitable for edge devices.

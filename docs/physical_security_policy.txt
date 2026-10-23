@@ -1,0 +1,5 @@
+Physical Security Policy
+
+Access to buildings is controlled with personal badges. Visitors must sign in at reception, wear a visitor pass and be escorted at all times. Server rooms require a second authentication factor in addition to the badge.
+
+CCTV cameras cover entrances, loading bays and the data centre corridor. Footage is retained for thirty days. Lost badges must be reported immediately so access can be revoked.

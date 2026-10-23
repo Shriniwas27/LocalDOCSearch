@@ -1,0 +1,8 @@
+streamlit>=1.35
+numpy
+scipy
+scikit-learn
+rapidfuzz
+pypdf
+# optional: true semantic search (downloads a ~90MB model on first use)
+# sentence-transformers

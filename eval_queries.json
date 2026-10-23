@@ -1,0 +1,14 @@
+[
+ {"q": "cybrspace",                      "type": "typo",     "relevant": ["cyberspace_history.txt"]},
+ {"q": "firewal rules",                  "type": "typo",     "relevant": ["firewall_configuration_manual.txt"]},
+ {"q": "encription keys",                "type": "typo",     "relevant": ["encryption_tls_guide.txt"]},
+ {"q": "viruses",                        "type": "synonym",  "relevant": ["malware_analysis_report.txt", "ransomware_incident_2024.txt"]},
+ {"q": "trojans",                        "type": "synonym",  "relevant": ["malware_analysis_report.txt"]},
+ {"q": "fraudulent emails",              "type": "synonym",  "relevant": ["phishing_awareness_policy.txt"]},
+ {"q": "software flaws patching",        "type": "synonym",  "relevant": ["vulnerability_management_procedure.txt"]},
+ {"q": "keycard entry to buildings",     "type": "synonym",  "relevant": ["physical_security_policy.txt"]},
+ {"q": "how to respond to a breach",     "type": "general",  "relevant": ["incident_response_playbook.txt", "ransomware_incident_2024.txt"]},
+ {"q": "login credentials rules",        "type": "general",  "relevant": ["password_policy.txt"]},
+ {"q": "how long are records kept",      "type": "general",  "relevant": ["data_retention_policy.txt"]},
+ {"q": "transformer text classification","type": "general",  "relevant": ["neural_networks_research_notes.txt"]}
+]

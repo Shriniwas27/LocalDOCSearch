@@ -1,0 +1,5 @@
+Incident Report: Ransomware Event at Regional Office
+
+At 02:14 the monitoring system flagged mass file renaming on the finance file server. The responder isolated the affected hosts and disabled the compromised service account. Encrypted shares were restored from offline backups within nine hours.
+
+Root cause analysis showed the attacker entered through an unpatched VPN appliance. Lessons learned include faster patching, network segmentation and an updated escalation contact list for any future breach.

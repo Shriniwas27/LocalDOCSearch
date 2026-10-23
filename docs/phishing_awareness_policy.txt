@@ -1,0 +1,5 @@
+Phishing Awareness Policy
+
+Employees must treat unexpected emails requesting payment, credentials or urgent action as suspicious. Spoofed sender names and lookalike domains are the most common tricks used in fraudulent emails.
+
+Report suspicious messages using the Report Phish button. The security team reviews every report within one business day. Quarterly simulated campaigns measure how many staff click links, and repeat clickers receive additional training.
