@@ -54,7 +54,7 @@ Modules: `ir_engine.py` (engine, no UI) · `app.py` (Streamlit) · `evaluate.py`
 | 7 | No evaluation | Can't prove any module helps | `evaluate.py` ablation across 6 configurations |
 | 8 | Typo correction applied blindly | Hurts queries when it fires wrongly | Per-module toggles + "search exactly as typed" button |
 
-## Known limitations (be honest about these in a report)
+## Limitations:
 * LSA is *latent co-occurrence*, not true semantics; on small corpora it is noisy. Use embeddings for real conceptual matching.
 * Thesaurus needs manual curation per domain; the bundled one is a starter.
 * Clustering needs enough results (≥6) and enough corpus to be meaningful; labels are keyword-based.
